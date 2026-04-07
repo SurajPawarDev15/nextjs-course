@@ -1,9 +1,9 @@
 import Header from "../../components/Header";
+import Layout from "../../components/Layout";
 export default function about() {
   return (
     <div>
-      <Header />
-      <h1>About</h1>
+      <Layout>About</Layout>
     </div>
   );
 }

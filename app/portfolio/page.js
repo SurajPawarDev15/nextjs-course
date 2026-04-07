@@ -1,9 +1,9 @@
 import Header from "../../components/Header";
+import Layout from "../../components/Layout";
 export default function Portfolio() {
   return (
     <div>
-      <Header />
-      <h1>Portfolio</h1>
+      <Layout>Portfolio</Layout>
     </div>
   );
 }

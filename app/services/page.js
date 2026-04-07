@@ -1,9 +1,9 @@
 import Header from "../../components/Header";
+import Layout from "../../components/Layout";
 export default function Services() {
   return (
     <div>
-      <Header />
-      <h1>Services</h1>
+      <Layout>Services</Layout>
     </div>
   );
 }
